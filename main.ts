@@ -230,7 +230,7 @@ scene.cameraFollowSprite(hero)
 info.setLife(3)
 info.setScore(0)
 // --- 8. INITIALIZATION ---
-game.splash("THE COWARD'S CROWN", "Legendary Edition")
+game.splash("THE COWARD'S CROWN", "8.0")
 game.showLongText("D-Pad: Move\\nA: Talk to People\\nGoal: Escape before they find out you're a fake!", DialogLayout.Center)
 setupWorld()
 game.onUpdate(function () {
